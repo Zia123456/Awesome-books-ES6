@@ -69,10 +69,8 @@ class features {
       removeButton.className = 'remove';
       removeButton.innerHTML = 'Remove';
       div.appendChild(removeButton);
-      // eslint-disable-next-line no-loop-func
       removeButton.onclick = () => {
         features.removeBook(i);
-        // eslint-disable-next-line no-restricted-globals
         features.displayBooks();
       };
 

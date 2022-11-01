@@ -17,5 +17,5 @@ import { DateTime } from './modules/luxon.js';
 // js to display time
 const dateTime = DateTime.now();
 document.querySelector('.date-time').innerHTML = dateTime.toLocaleString(
-  DateTime.DATETIME_MED
+  DateTime.DATETIME_MED,
 );

@@ -1,10 +1,6 @@
 // import variables from access-html-elements.js
 import {
-  container,
   form,
-  bookTitle,
-  bookAuthor,
-  addBook,
   bookContainer,
   contactContainer,
   list,

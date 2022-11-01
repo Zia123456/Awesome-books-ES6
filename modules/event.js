@@ -1,4 +1,5 @@
-//import variables from access-html-elements.js
+// import variables from access-html-elements.js
+
 import {
   form,
   bookTitle,
@@ -21,7 +22,7 @@ const addNewBook = form.addEventListener('click', (event) => {
 // js to invoke displayBooks function
 const displayAllBooks = window.addEventListener(
   'DOMContentLoaded',
-  features.displayBooks
+  features.displayBooks,
 );
 
 export { addNewBook, displayAllBooks };
