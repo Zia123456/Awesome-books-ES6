@@ -15,6 +15,5 @@
     "no-param-reassign": "off",
     "eol-last": "off"
   },
-  "ignorePatterns": ["dist/", "build/"],
-  "import/extensions": ["never", "always", "ignorePackages"]
+  "ignorePatterns": ["dist/", "build/"]
 }

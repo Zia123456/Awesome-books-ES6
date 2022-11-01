@@ -1,3 +1,6 @@
+/* eslint-disable import/no-absolute-path */
+/* eslint-disable import/extensions */
+/* eslint-disable import/no-unresolved */
 // import variables from access-html-elements.js
 
 import {
@@ -5,6 +8,7 @@ import {
   bookTitle,
   bookAuthor,
   addBook,
+  // eslint-disable-next-line import/no-absolute-path
 } from '/modules/access-html-elements.js';
 
 // import class features from features.js

@@ -1,3 +1,5 @@
+/* eslint-disable import/extensions */
+/* eslint-disable no-unused-vars */
 // import functions for DOM manipulation from functions.js
 import {
   displayList,
